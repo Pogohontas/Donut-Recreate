@@ -525,6 +525,7 @@ footer {
 	text-decoration: none;
 	line-height: 1.5em;
 	transition: color .3s;
+	color: var(--blue);
 }
 
 #footer-nav a:hover {
