@@ -1,16 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
-        <title>donut</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title>Donut | Recreate</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/donut-icon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
     <body>
-        <header>
+        
+        <!--HEADER-->
+        <!--header-purple-->
+        <header class="header-purple" id="header-test-id">
+            <img src="img/donut-logo-light.png" id="header-donut-logo">
+
+            <ul>
+                <li><a href="#">Pairing</a></li>
+                <li><a href="#">Onboarding</a></li>
+                <li><a href="#">Beyondboarding</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="header-sign-in">Sign In</a></li>
+            </ul>
         </header>
-        <main>
-        </main>
+
+        <!--header-white-->
+        <!--
+        <header class="header-white display-none">
+            <img src="img/donut-logo-dark.png">
+
+            <ul>
+                <li><a href="#">Pairing</a></li>
+                <li><a href="#">Onboarding</a></li>
+                <li><a href="#">Beyondboarding</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="header-sign-in">Sign In</a></li>
+            </ul>
+        </header>
+        -->
+
+        <!--HERO-SECTION-->
+        <section id="hero-section">
+            <p>Build amazing<br>company culture<br>with Donut.</p>
+            <a href="#" id="hero-slack-btn">
+                <img src="img/slack-btn.png">
+            </a>
+
+            <img src="img/g-hero.svg">
+        </section>
+
+        <!--LOGO-SECTION-->
+        <section id="logo-section">
+            <img src="img/logo-1-invision.png">
+            <img src="img/logo-2-ibm.png">
+            <img src="img/logo-3-blueapron.png">
+            <img src="img/logo-4-cultureamp.png">
+            <img src="img/logo-5-q.png">
+            <img src="img/logo-6-meetup.png">
+            <img src="img/logo-7-ape.png">
+            <img src="img/logo-8-nulogy.png">
+        </section>
+
+        <!--LINK-SECTION-->
+        <section id="link-section">
+            <div class="link-div">
+                <img src="img/g-pairing.svg">
+
+                <div>
+                    <h3>Pairing</h3>
+                    <p>Spread trust and collaboration across your organization by pairing up team members who don't know each other well.</p>
+                    <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="link-div">
+                <img src="img/g-onboard.svg">
+
+                <div>
+                    <h3>Onboarding</h3>
+
+                    <p>Connect new hires with the right people and information from day one with <span>people-first</span> new-hire onboarding.</p>
+
+                    <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--TESTIMONIAL-SECTION-->
+        <section id="testimonial-section">
+            <div class="test-div-1">
+                <div>
+                    <img src="img/clark-valberg.png" id="clark-valberg">
+                    <img src="img/logo-1-invision.png" id="clark-invision">
+                </div>
+            </div>
+
+            <div class="test-div-2">
+                <p>Donut helps us strengthen<br>personal connections and<br>InVision’s company culture.</p>
+
+                <span class="test-span">Clark Valberg</span>
+                <span class="test-span"><span>InVision</span>, CEO & Co-Founder</span>
+
+                <a href="#" id="test-link">Read how InVision powers culture and<br>communication <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <!--PRE-FOOTER-->
+        <div id="pre-footer"></div>
+
+        <!--FOOTER-->
         <footer>
+            <div id="footer-newsletter">
+                <h5>Sign up for our newsletter</h5>
+                <input type="email" placeholder="Email address">
+                <input type="submit" value="Submit">
+            </div>
+
+            <nav id="footer-nav">
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Jobs (Join Us!)</a></li>
+                    <li><a href="#">DPA</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div id="footer-info">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-angellist"></i></a>
+                <a href="#"><i class="fab fa-slack-hash"></i></a>
+
+                <p>&copy; 2018 Donut Technologies Inc.<br>All rights reserved.</p>
+            </div>
         </footer>
+
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
